@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+
+:root{
+    --main-purple-color:  rgba(133,75,179,1);
+    --selected-font: 'Inter', sans-serif;
+}
+
+.change-opacity{
+    transition: 0.3s ease all;
+}
+
+.change-opacity:hover{
+    opacity: 0.8;
+}
+
+#sign-up-btn{
+    background: rgba(133,75,179,1);
+    border: none;
+    color: white;
+    transition: 0.3s ease-in-out opacity;
+    font-weight: 500;
+}
+
+#navbarBasicExample .no-change{
+    font-family: var(--selected-font);
+}
+
+#navbarBasicExample .no-change:hover{
+    background: none;
+    color: var(--main-purple-color);
+    font-family: var(--selected-font);
+}
+
+.navbar-end .buttons{
+    font-family: var(--selected-font);
+}
+
+.change-font{
+    font-family: var(--selected-font);
+}
+
+#get-started{
+    background-color: var(--main-purple-color);
+    font: var(--selected-font);
+    color: white;
+    border: none;
+}
+
+#know-more{
+    color: var(--main-purple-color);
+    border: none;
+}
+
+#center-this{
+    margin: auto 0;
+}
+
+#change-bg{
+    background-color: #f2f2f2;
+}
+
+.main-img-icon{
+    width: 100px;
+    height: 100px;
+}
+
+#footer-main{
+    background-color: var(--main-purple-color);
+}
+
+.change-color{
+    color: white;
+}
+
+.moveUp{
+    transition: 0.3s ease-in-out transform;
+}
+
+.moveUp:hover{
+    transform: translateY(-10px);
+}
+
+#center-this-too{
+    margin: auto 0;
+}
+
+#get-started-new{
+    background-color: var(--main-purple-color);
+    font: var(--selected-font);
+    color: white;
+    border: none;
+}
+
+#know-more-new{
+    color: var(--main-purple-color);
+    border: none;
+}
+
+#change-bg-new{
+    background-color: #f2f2f2;
+}
+
+#change-bg-new-two{
+    background-color: #f2f2f2;
+}
+
+#center-this-two{
+    margin: auto 0;
+}
+
+.change-text-color{
+    color: var(--main-purple-color);
+}
+
+#center-this-as-well{
+    margin: auto 0;
+}
+
+#this-is-center-too{
+    margin: auto 0;
+}
+
+.card-shadow-remove{
+    box-shadow: none;
+}
+
+#course-catalogue{
+    background-color: var(--main-purple-color);
+    font: var(--selected-font);
+    color: white;
+    border: none;
+}
+
+#about-new{
+    color: var(--main-purple-color);
+    border: none;
+    background: none;
+}
+
+#main-footer{
+    background-color: #111111;
+    color: white;
+}
+
+.center-this-column{
+    margin: 0 auto;
+}
+
+.footer-heading{
+    color: var(--main-purple-color);
+}
+
+.footer-icon{
+    padding-right: 8px;
+}
+
+.footer-data{
+    color: #cccccc;
+}
+
+.newletter{
+    background-color: var(--main-purple-color);
+    
+}
+
+#newsletter{
+    color: white;
+}
+
+.endline{
+    background-color: var(--main-purple-color);
+}
+
+.uniform-text{
+    font-size: 1.1em;
+    line-height: 1.5;
+    font-weight: 400;
+}
