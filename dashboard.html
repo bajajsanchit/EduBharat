@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBharat | Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/dashboard-styles.css">
+</head>
+<body>
+    <section class="navbar-section">
+        <div class="container">
+            <nav class="navbar is-transparent">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                        <img src="images/EDUBHARAT-purple.svg" width="200" height="55">
+                    </a>
+                    <div class="navbar-burger" data-target="navbarBasicExample">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+    
+                <div class="navbar-menu" id="navbarBasicExample">
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <button class="get-started" id="contribute-btn">
+                                Contribute
+                            </button>
+    
+                            <a href="courses.html">
+                                <button class="get-started enroll-btn">
+                                    View all Courses
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="dashboard-main-section">
+        <div class="container">
+            <div class="welcome-message">Hi Thomas, Welcome to your dashboard! 👋</div>
+            
+            <div class="course-status-section">         
+                <div class="columns is-multiline">  
+                    <div class="column is-12">
+                        <div class="course-status-heading">
+                            <div class="course-status-update">Ongoing Courses</div>
+                            <div class="columns">
+                                <div class="column is-3">
+                                    <a href="saving-the-environment.html">
+                                        <div class="box course-box">
+                                            <div class="course-img-container">
+                                                <img src="images/environmental studies.png" alt="" class="course-image">
+                                            </div>
+                                        
+                                            <div class="course-content-container">
+                                                <span class="category">Nature</span>
+                                                <div class="course-heading">Saving the Environment</div>
+                                                <div class="instructor-details">Beginners • 8 total hours</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="column is-3">
+                                    <a href="how-to-improve-flexibility.html">
+                                        <div class="box course-box">
+                                            <div class="course-img-container">
+                                                <img src="images/health and wellness.png" alt="" class="course-image">
+                                            </div>
+                                        
+                                            <div class="course-content-container">
+                                                <span class="category">Health and Wellness</span>
+                                                <div class="course-heading">How to Improve Flexibility</div>
+                                                <div class="instructor-details">Intermediate • 12 total hours</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="column is-3">
+                                    <div class="box course-box">
+                                        <div class="course-img-container">
+                                            <img src="images/exponentials.png" alt="" class="course-image">
+                                        </div>
+                                
+                                        <div class="course-content-container">
+                                            <span class="category">Mathematics</span>
+                                            <div class="course-heading">Intro to Exponentials</div>
+                                            <div class="instructor-details">Beginner • 4 total hours</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quiz-stats" style="background-color: #f2f2f2;">
+        <div class="container">
+            <div class="quiz-content-section">
+                <div class="quiz-section-heading">Upcoming Quiz and Assignments</div>
+            
+                <div class="quiz-rows">
+                    <div class="box quiz-row">
+                        <div class="quiz-row-data">
+                            <div class="quiz-topic-heading">Getting started with the Computer System</div>
+                            <div class="quiz-row-data-stats"><i class="fas fa-mail-bulk"></i>Multiple Choice Questions <i class="fas fa-stopwatch-20"></i> 20 Minutes <i class="fas fa-question"></i> 10 Questions</div>
+                        </div>
+                        <a href="quiz-1.html"><button>Take Quiz</button></a>
+                    </div>
+            
+                    <div class="box quiz-row">
+                        <div class="quiz-row-data">
+                            <div class="quiz-topic-heading">Exponentials for Beginners</div>
+                            <div class="quiz-row-data-stats"><i class="fas fa-mail-bulk"></i>Multiple Choice Questions <i
+                                    class="fas fa-stopwatch-20"></i> 20 Minutes <i class="fas fa-question"></i> 10 Questions</div>
+                        </div>
+                        <a href="quiz-1.html"><button>Take Quiz</button></a>
+                    </div>
+            
+                    <div class=" box quiz-row">
+                        <div class="quiz-row-data">
+                            <div class="quiz-topic-heading">Basics of Human Biology</div>
+                            <div class="quiz-row-data-stats"><i class="fas fa-mail-bulk"></i>Multiple Choice Questions <i
+                                    class="fas fa-stopwatch-20"></i> 20 Minutes <i class="fas fa-question"></i> 10 Questions</div>
+                        </div>
+                        <a href="quiz-1.html"><button>Take Quiz</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-6">
+                    <div class="stats-section-heading">Quiz Results</div>
+                    <div class="result-chart">
+                        <canvas id="myChart" width="400" height="400"></canvas>
+                        <script>
+                            var ctx = document.getElementById('myChart').getContext('2d');
+                            var myChart = new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ['Quiz-1', 'Quiz-2', 'Quiz-3', 'Quiz-4', 'Quiz-5', 'Quiz-6'],
+                                    datasets: [{
+                                        label: 'Marks in Quiz',
+                                        data: [12, 19, 3, 5, 2, 3],
+                                        backgroundColor: [
+                                            'rgba(255, 99, 132, 0.2)',
+                                            'rgba(54, 162, 235, 0.2)',
+                                            'rgba(255, 206, 86, 0.2)',
+                                            'rgba(75, 192, 192, 0.2)',
+                                            'rgba(153, 102, 255, 0.2)',
+                                            'rgba(255, 159, 64, 0.2)'
+                                        ],
+                                        borderColor: [
+                                            'rgba(255, 99, 132, 1)',
+                                            'rgba(54, 162, 235, 1)',
+                                            'rgba(255, 206, 86, 1)',
+                                            'rgba(75, 192, 192, 1)',
+                                            'rgba(153, 102, 255, 1)',
+                                            'rgba(255, 159, 64, 1)'
+                                        ],
+                                        borderWidth: 1
+                                    }]
+                                },
+                                options: {
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true
+                                        }
+                                    }
+                                }
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <div class="column is-6">
+                    <div class="stats-section-heading">Peer Graded Assignment Results</div>
+                    <div class="result-chart">
+                        <canvas id="myChart-2" width="400" height="400"></canvas>
+                        <script>
+                            var ctx = document.getElementById('myChart-2').getContext('2d');
+                            var myChart = new Chart(ctx, {
+                                type: 'line',
+                                data: {
+                                    labels: ['Assignment-1', 'Assignment-2', 'Assignment-3', 'Assignment-4', 'Assignment-5', 'Assignment-6'],
+                                    datasets: [{
+                                        label: 'Marks in Assignments',
+                                        data: [4, 19, 13, 25, 6, 13],
+                                        backgroundColor: [
+                                            'rgba(255, 99, 132, 0.2)',
+                                            'rgba(54, 162, 235, 0.2)',
+                                            'rgba(255, 206, 86, 0.2)',
+                                            'rgba(75, 192, 192, 0.2)',
+                                            'rgba(153, 102, 255, 0.2)',
+                                            'rgba(255, 159, 64, 0.2)'
+                                        ],
+                                        borderColor: [
+                                            'rgba(255, 99, 132, 1)',
+                                            'rgba(54, 162, 235, 1)',
+                                            'rgba(255, 206, 86, 1)',
+                                            'rgba(75, 192, 192, 1)',
+                                            'rgba(153, 102, 255, 1)',
+                                            'rgba(255, 159, 64, 1)'
+                                        ],
+                                        borderWidth: 1
+                                    }]
+                                },
+                                options: {
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true
+                                        }
+                                    }
+                                }
+                            });
+
+
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard-main-section">
+        <div class="container">
+            
+    
+            <div class="course-status-section" style="margin-bottom: 2rem;">
+                <div class="columns is-multiline">
+                    <div class="column is-12">
+                    <div class="course-status-heading">
+                        <div class="course-status-update">Completed Courses</div>
+                        <div class="columns">
+                            <div class="column is-3">
+                                <a href="introduction-to-mammals.html">
+                                    <div class="box course-box">
+                                        <div class="course-img-container">
+                                            <img src="images/health and wellness (1).png" alt="" class="course-image">
+                                        </div>
+                                    
+                                        <div class="course-content-container">
+                                            <span class="category">Animals</span>
+                                            <div class="course-heading">Introduction to Mammals</div>
+                                            <div class="instructor-details">Advanced • 5 total hours</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                    
+                            
+                    
+                            <div class="column is-3">
+                                <a href="arson-concepts.html">
+                                    <div class="box course-box">
+                                        <div class="course-img-container">
+                                            <img src="images/combustion.png" alt="" class="course-image">
+                                        </div>
+                                    
+                                        <div class="course-content-container">
+                                            <span class="category">Science</span>
+                                            <div class="course-heading">Fire Safety Concepts</div>
+                                            <div class="instructor-details">Advanced • 10 total hours</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                    
+                            <div class="column is-3">
+                                <div class="box course-box">
+                                    <div class="course-img-container">
+                                        <img src="images/finance.png" alt="" class="course-image">
+                                    </div>
+                    
+                                    <div class="course-content-container">
+                                        <span class="category">Finance</span>
+                                        <div class="course-heading">Asset Diversification</div>
+                                        <div class="instructor-details">Intermediate • 7 total hours</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="help-section" id="help-box">
+        <div class="container">
+            <div class="help-box">
+                <div class="help-content">Want any help regarding your dashboard? Reach out to us.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer change-font" id="main-footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div class="rows">
+                        <div class="row">
+                            <img src="images/EDUBHARAT-purple.svg" alt="" width="200" height="55"
+                                style="margin-bottom: 10px;">
+                        </div>
+    
+                        <div class="row py-2">
+                            <p><strong class="footer-heading title is-6">About Us</strong></p>
+                            <p class="py-1 footer-data mr-3">Edu-Bharat, is a LMS (Learning Management System) specially
+                                designed for the Indian demographic of people deprived of education primarily because of
+                                various social and economical conditions such as poverty.</p>
+                        </div>
+    
+                        <div class="row py-2">
+                            <p><strong class="footer-heading title is-6">Contact Us</strong></p>
+                            <p class="py-2 footer-data"><i class="fas fa-phone-alt footer-icon"></i> +92 12345 67890</p>
+                            <p class="footer-data"><i class="far fa-envelope footer-icon"></i> hello@edubharat.in</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="column">
+                    <strong class="content footer-heading title is-6">Explore</strong>
+                    <p class="footer-data mt-2">Events</p>
+                    <p class="footer-data">Campaigns</p>
+                    <p class="footer-data">Partners</p>
+                    <p class="footer-data">Team</p>
+                </div>
+    
+                <div class="column">
+                    <strong class="content footer-heading title is-6">Follow</strong>
+                    <p class="footer-data mt-2">Facebook</p>
+                    <p class="footer-data">Instagram</p>
+                    <p class="footer-data">Twitter</p>
+                </div>
+    
+                <div class="column">
+                    <strong class="content footer-heading title is-6">Legal</strong>
+                    <p class="footer-data mt-2">Privacy</p>
+                    <p class="footer-data">Terms</p>
+                </div>
+    
+    
+            </div>
+        </div>
+    </footer>
+    
+    <section class="endline py-1"></section>
+
+    <div class="modal" id="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content animate__animated animate__bounceIn">
+            <div class="form-content">
+                <p class="form-main-heading" style="text-align: center;">Thanks for showing interest in Edu-Bharat</p>
+                <p class="form-main-subheading" style="text-align: center;">Please fill this form and we will get back to
+                    your shortly</p>
+    
+                <div class="field">
+                    <label class="label custom-label">Full Name</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="">
+                    </div>
+                </div>
+    
+    
+    
+                <div class="field">
+                    <label class="label custom-label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="" value="">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="field">
+                    <label class="label custom-label">Subject</label>
+                    <div class="control">
+                        <div class="select">
+                            <select>
+                                <option>Subject</option>
+                                <option>Monetary Contribution to EduBharat</option>
+                                <option>Curate Content for EduBharat</option>
+                                <option>Career Counselling</option>
+                                <option>Register for Workshops</option>
+                                <option>Dashboard related queries</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="field" style="margin-bottom: 1.2rem;">
+                    <label class="label custom-label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder=""></textarea>
+                    </div>
+                </div>
+    
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link" style="background-color: #854bb3;">Submit</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-link is-light">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" id="close-btn" aria-label="close"></button>
+    </div>
+
+    <script>
+            var modal = document.getElementById('modal');
+            var contributeBtn = document.getElementById('contribute-btn')
+            var closeBtn = document.getElementById('close-btn')
+            var helpBox = document.getElementById('help-box')
+
+            function openModal() {
+                modal.classList.toggle('is-active')
+            }
+
+            function closeModal() {
+                modal.classList.toggle('is-active')
+            }
+
+            contributeBtn.addEventListener('click', openModal)
+            closeBtn.addEventListener('click', closeModal)
+            helpBox.addEventListener('click', openModal)
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

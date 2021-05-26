@@ -345,23 +345,26 @@
                 <!-- Initialize Swiper -->
                 <script>
                   var swiper = new Swiper('.swiper-container', {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                     spaceBetween: 20,
                     direction: 'horizontal',
                     autoplay: {
                       delay: 1500,
                       disableOnInteraction: false,
-                    },
-                
+                    }, 
+
+                    breakpoints: {
+                      
+                      550: {
+                        slidesPerView: 2,
+                      }
+                    }
+
                   });
+
                 </script>
 
-                
               </div>
-
-              
-
-              
             </div>
           </div>
         </div>
@@ -387,7 +390,6 @@
                 </h3>
               </div>
 
-              
             </div>
           </div>
         </div>

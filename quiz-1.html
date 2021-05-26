@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quiz-style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+        <div class="quiz-container">
+            <div class="quiz-content" id="quiz-content">
+                <div class="question" id="question">Question</div>
+                <div class="answers">
+                    <div class="options">
+                        <div class="option" id="option-0">Option</div>
+                        <div class="option" id="option-1">Option</div>
+                        <div class="option" id="option-2">Option</div>
+                        <div class="option" id="option-3">Option</div>
+                    </div>
+                </div>
+            </div>
+            <button class="submit-btn" id="submit-btn">Next Question</button>
+        </div>
+
+        <div class="result-container" id="result-container">
+            <div class="result-content">
+                <p class="result-heading">Congratulations for the good score!</p>
+                <div class="img-container">
+                    <img src="trophy.png" alt="Trophy" class="congratulations-image">
+                </div>
+                <div class="result">You have secured <span class="result-value">300</span> points.</div>
+
+                <div class="button-box">
+                    <button class="play-again">Play again</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/ques-1.js" defer></script>
+        <script src="js/ques-app.js" defer></script>
+</body>
+</html>
